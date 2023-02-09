@@ -21,6 +21,9 @@ h1 {
     color: aqua;
 }
 
+img {
+    width: 80%;
+}
 
 @media (max-width:563px) {
 
@@ -34,13 +37,17 @@ h1 {
 }
 
 @media (max-width:300px) {
-
+    
     h1 {
         margin: 30px auto 30px auto;
         font-family: 'Lobster Two', cursive;
         text-shadow: 5px 0 #232931;
         font-size: 3rem;
         color: aqua;
+    }
+
+    img {
+        width: 60%;
     }
 }
 
@@ -50,9 +57,14 @@ p {
     font-family: 'Indie Flower', cursive;
 }
 
-img {
-    width: 80%;
-}
+
+
+/* @media (max-width:300px) {
+    
+    img {
+        width: 20%;
+    }
+} */
 
 footer {
     margin-top: 5%;
