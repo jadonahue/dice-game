@@ -25,6 +25,12 @@ img {
     width: 80%;
 }
 
+p {
+    font-size: 2rem;
+    color: aqua;
+    font-family: 'Indie Flower', cursive;
+}
+
 @media (max-width:563px) {
 
     h1 {
@@ -34,6 +40,10 @@ img {
         font-size: 5rem;
         color: aqua;
     }
+
+    img {
+        width: 60%;
+    }
 }
 
 @media (max-width:300px) {
@@ -42,29 +52,30 @@ img {
         margin: 30px auto 30px auto;
         font-family: 'Lobster Two', cursive;
         text-shadow: 5px 0 #232931;
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: aqua;
     }
 
+    p {
+        font-size: 1rem;
+        color: aqua;
+        font-family: 'Indie Flower', cursive;
+    }
+
     img {
-        width: 60%;
+        width: 40%;
+    }
+
+    h3 {
+        display: block;
+        font-size: .75em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
     }
 }
-
-p {
-    font-size: 2rem;
-    color: aqua;
-    font-family: 'Indie Flower', cursive;
-}
-
-
-
-/* @media (max-width:300px) {
-    
-    img {
-        width: 20%;
-    }
-} */
 
 footer {
     margin-top: 5%;
