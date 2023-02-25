@@ -1,10 +1,10 @@
 // Get random number between 1-6. Store in variables.
-var randomNumber1 = Math.floor((Math.random() * 6) + 1);
-var randomNumber2 = Math.floor((Math.random() * 6) + 1);
+let randomNumber1 = Math.floor((Math.random() * 6) + 1);
+let randomNumber2 = Math.floor((Math.random() * 6) + 1);
 
 // Adjust and store in variable the first and second dice image with random number selected.
-var firstDiceImage = "images/dice" + randomNumber1 + ".png";
-var secondDiceImage = "images/dice" + randomNumber2 + ".png";
+let firstDiceImage = "images/dice" + randomNumber1 + ".png";
+let secondDiceImage = "images/dice" + randomNumber2 + ".png";
 
 // Change the image of first and second dice to the random dice image.
 document.querySelector(".img1").setAttribute("src", firstDiceImage);
