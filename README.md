@@ -1,7 +1,7 @@
 <h1>Dice Game</h1>
 
 <p>
-This is a simple dice game focusing on JavaScript and DOM manipulation. 
+This is a responsive website dice game using JavaScript and DOM manipulation. 
 </p>
 
 <p>
